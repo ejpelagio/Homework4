@@ -20,11 +20,13 @@ img{
 
 .character {
 	display: inline-block;
-	border-style: solid;
-	border-color: green;
-	border-width: 3px;
+	border-style: double;
+	border-color: black;
+	border-width: 5px;
 	cursor: pointer;
-	background-color: white;
+	background-color: gray;
+	opacity: 0.9
+	
 }
 .character-image {
 	padding-right: 16px;
