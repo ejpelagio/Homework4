@@ -36,23 +36,21 @@ $(document).ready(function() {
        }
 
      };  
-      // Will be populated when the player selects a character.
-  var currSelectedCharacter;
-  // Populated with all the characters the player didn't select.
-  var combatants = [];
-  // Will be populated when the player chooses an opponent.
-  var currDefender;
-  // Will keep track of turns during combat. Used for calculating player damage.
-  var turnCounter = 1;
-  // Tracks number of defeated opponents.
-  var killCount = 0;
 
+     //Will be populated when the player selects a character.
+     var currSelectedCharacter;
+     // Will populate all characters the player didnt select.
+     var combatants =[];
+     // Will populate when the user selects an oponent 
+     var currDefender;
+     //will keep track of turns during combat. used for calculating damage.
+     var turnCounter = 1;
+     // Track number of defeated opponents 
+     var killCount =0;
 
-  // FUNCTIONS
-  // ===================================================================
-
-  // This function will render a character card to the page.
-  // The character rendered, the area they are rendered to, and their status is determined by the arguments passed in.
+     // GAME FUNCTIONS 
+     //===============================================================================
+   
   var renderOne = function(character, renderArea, charStatus) {
 
     // This block of code builds the character card, and renders it to the page.

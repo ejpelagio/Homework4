@@ -4,13 +4,27 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	color:gray;
+	color:black;
+	background-size: cover;
+	
 }
 
 img{
 	height: 100px;
 	width: 150px;
 	border-radius: 10px;
+}
+#attack-button {
+    background-color: silver;
+    border: double;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 .section-title { font-size: 200%; }
 .main-section-title {
@@ -26,7 +40,7 @@ img{
 	cursor: pointer;
 	background-color: gray;
 	opacity: 0.9
-	
+
 }
 .character-image {
 	padding-right: 16px;
